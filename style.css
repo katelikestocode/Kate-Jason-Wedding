@@ -1,7 +1,7 @@
 /**** STYLE SHEET ****/
 
 body {
-	font-family: Helvetica, sans-serif;
+	font-family: Futura, sans-serif;
 	font-size: 1em;
 }
 
@@ -10,42 +10,35 @@ body {
 	height: 750px;
 	background-size: cover;
 	background-position: center; 
-	background-image: url("images/k_couch.jpg");
-}
-
-h1 {
-	font-weight: 900;
+	background-image: url("images/rainbow-couple.jpg");
 }
 
 .top-bar {
-	height: 200px;
 	color: white;
+	clear: both;
+	height: 200px;
+	padding-top: 100px;
+	padding-right: 50px;
 }
 
-.top-bar-links  {
-	  list-style-type: none;
-	  width: 520px;
-	  margin-left: auto;
-	  margin-right: auto;
-	  padding-top: 20px;
-	  
-	  vertical-align: baseline;
-	  
-	  }
-  
-.top-bar-links li {
-  	display: inline;
-	padding-right: 10px;
-	padding-left: 10px;
-	padding-bottom: 10px;
-	padding-top: 15px;
-	text-decoration: none;
-	}
+h1 {
+	font-size: 4em;
+	font-family: Futura, sans-serif;
+	text-align: right;
+	
+}
 
-.top-bar-links li a {
-  	text-decoration: none;
-  	color: #ffffff;
-  }
+h2 {
+	font-size: 3em;
+	font-family: Futura, sans-serif;
+	text-align: right;
+
+}
+
+
+
+
+
   
 .bottom-container {
 	width: 100%;
@@ -78,4 +71,14 @@ h1 {
   	height: 50px;
   	margin-bottom: 10px;
   	padding-right: 10px;
+}
+
+a {
+  	text-decoration: none;
+  	color: #000000;
+
+}
+
+a:hover {
+	color: rgba(0, 0, 0, 0.5);
 }
