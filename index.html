@@ -98,6 +98,8 @@
 			text-align: center;
 			font-weight: normal;
 			clear:both;
+			text-transform: uppercase;
+			padding-top: 2em; /* This isn't quite right... the "float left/right" divs are messing up the layout...their parent div isn't being sized properly, breaking the flow. Goddamn css. */
 		}
 		
 		.five-column {
@@ -138,7 +140,15 @@
 		}
 		
 		.clearfix {
+			padding-top: inherit;
 			clear: both;
+		}
+		
+		.bigger {
+			font-size: 3em;
+			margin-top: 0;
+			margin-bottom: 0;
+			line-height: 1;
 		}
 	</style>
 </head>
@@ -207,8 +217,8 @@
 		
 		<!-- Questions? -->
 		<h3>Questions?</h3>
-		<p class="five-column">You can always email the bride or groom for more details, or check back on the site as we add more information.</p>
-		<p class="center">❤︎</p>
+		<p class="five-column">You can always email the <a href="mailto:kate.pais@gmail.com">bride</a> or <a href="mailto:i.jasonbrennan@gmail.com">groom</a> for more details, or check back on the site as we add more information.</p>
+		<p class="center bigger">❤︎</p>
 		<p class="center">Hope to see you there!</p>
 	</div>
 </body>
