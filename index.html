@@ -10,6 +10,8 @@
 		body {
 			font-family: Futura, "Helvetica Neue", Helvetica, sans-serif;
 			margin: 0;
+			background-color: #f4f4f4;
+			font-size: 20px;
 		}
 		
 		
@@ -38,10 +40,10 @@
 			height: 100px;
 		}
 		
-		nav a {
+/* 		nav a {
 			text-decoration: none;
 			color: inherit;
-		}
+		} */
 		
 		.title-info {
 			font-size: 48px;
@@ -55,7 +57,7 @@
 			margin-top: 0.7em;
 		}
 		
-		nav ul {
+/* 		nav ul {
 			margin-top: 0;
 			width: 900px;
 			margin-left: auto;
@@ -74,6 +76,41 @@
 			padding: 0;
 			width: 170px;
 			text-align: center;
+		} */
+		
+		.menu {
+			/* background-color: purple; */
+			text-align: center;
+			margin-top: 0;
+			top: 50%;
+			position: relative;
+			transform: translateY(-50%);
+			-webkit-transform: translateY(-50%);
+			-ms-transform: translateY(-50%);
+		}
+		
+		.selected {
+			border-bottom: 3px #1f5c92 solid;
+			padding-bottom: 6px;
+		}
+		
+		h3 {
+			text-align: center;
+			font-weight: normal;
+		}
+		
+		.five-column {
+			width: 730px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		.center {
+			text-align: center;
+		}
+		
+		p {
+			line-height: 2;
 		}
 	</style>
 </head>
@@ -91,14 +128,28 @@
 
 		</header>
 		<nav>
-			<ul>
+			<h2 class="menu"><span class="selected">The Day</span></h2>
+<!-- 			<ul>
 				<li><a href="">The Day</a></li>
 				<li><a href="">The Couple</a></li>
 				<li><a href="">RSVP</a></li>
 				<li><a href="">Registry</a></li>
 				<li><a href="">The Gang</a></li>
-			</ul>
+			</ul> -->
 		</nav>
+		<h3>Ceremony & Reception</h3>
+		<p class="five-column">The ceremony will start promptly at 4pm in the afternoon at the Appel Inn, Altamont NY. The reception will also be at the Inn and run until 10pm. Arrangements have been made for transportation back to the hotel.</p>
+		
+		<!-- Hotel -->
+		<h3>Hotel</h3>
+		<p class="five-column">We have reserved a block of rooms at the Best Western Albany Airport Inn. The holte has also arranged for a complimentary shuttle at the end of the evening and breakfast the following morning. Please mention the Pais/Brennan wedding when making your reservation; the rate should be $110 per night.</p>
+		<p class="center">Reservations must be made before <strong>July 15th</strong> to join the block.</p>
+		
+		<!-- Questions? -->
+		<h3>Questions?</h3>
+		<p class="five-column">You can always email the bride or groom for more details, or check back on the site as we add more information.</p>
+		<p class="center">❤︎</p>
+		<p class="center">Hope to see you there!</p>
 	</div>
 </body>
 </html>
