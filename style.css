@@ -103,6 +103,25 @@ h3 {
 	clear:both;
 }
 
+
+.two-column {
+	width: 292px;
+}
+
+.two-column img {
+	width: 280px;
+	border: 8px #1f5c92 solid;
+}
+
+.float-left {
+	float: left;
+}
+
+
+.float-right {
+	float: right;
+}
+
 .center {
 	text-align: center;
 }
@@ -143,4 +162,10 @@ p {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: 1;
+}
+
+
+.title-case {
+	text-transform: uppercase;
+	font-size: 28px;
 }
